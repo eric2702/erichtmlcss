@@ -1,0 +1,50 @@
+[class|=title] {
+    color: red;
+    font-family: "Open Sans", sans-serif;
+}
+#service {
+    height: 400px;
+    width: 70vw;
+    background: radial-gradient(circle, red 20%, blue 30%, green 50%);
+    border: 5px dotted red;
+    margin-top: 40px;
+
+}
+body {
+    background: linear-gradient(to bottom, rgb(55, 25, 223), rgba(55, 25, 223, 0.4));
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 1.15em;
+    font-family: "Lato", sans-serif;
+}
+.link {
+    color: purple;
+    text-align: left;
+    
+}
+.link:hover {
+    color: red;
+
+}
+.italic {
+    font-style:oblique;
+}
+.container {
+    margin:10px;
+    background:white;
+    display: flex;
+    flex-direction: row;
+    width:70%;
+    
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.container-item {
+    color: white;
+    background:green;
+    width:70px;
+    text-align: center;
+    line-height: 70px;
+    margin:10px;
+    
